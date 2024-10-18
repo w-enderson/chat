@@ -30,7 +30,7 @@ app.get("/messages", (req, res) => {
 })
 
 const server = app.listen(3000, () => {
-    console.log("server running")
+    console.log("server running on http://localhost:3000")
 })
 
 const io = socketIO(server)
